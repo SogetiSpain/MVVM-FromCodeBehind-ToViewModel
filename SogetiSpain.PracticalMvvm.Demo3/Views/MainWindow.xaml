@@ -1,0 +1,29 @@
+﻿<Window x:Class="SogetiSpain.PracticalMvvm.Demo3.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SogetiSpain.PracticalMvvm.Demo3.Views"
+        mc:Ignorable="d"
+        Title="Demo 3 -> Ejemplo View transformada a MVVM"
+        Height="300"
+        Width="675">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Background"
+                        Value="#FF84A447" />
+                <Setter Property="FontWeight"
+                        Value="Bold" />
+                <Setter Property="Foreground"
+                        Value="#FFFFFFFF" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="Foreground"
+                        Value="#FF4072AD" />
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <local:EmployeeEditView HorizontalAlignment="Center"
+                            VerticalAlignment="Center" />
+</Window>

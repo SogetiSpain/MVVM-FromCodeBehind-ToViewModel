@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{567306E7-0483-4C3B-BDF8-9B5EE91B887F}</ProjectGuid>
+    <ProjectGuid>{9A32F574-FD25-49DE-8BD6-9A686DBFC221}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SogetiSpain.PracticalMvvm.Demo2</RootNamespace>
-    <AssemblyName>SogetiSpain.PracticalMvvm.Demo2</AssemblyName>
+    <RootNamespace>SogetiSpain.PracticalMvvm.Demo3</RootNamespace>
+    <AssemblyName>SogetiSpain.PracticalMvvm.Demo3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -23,10 +23,10 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\SogetiSpain.PracticalMvvm.Demo2.xml</DocumentationFile>
-    <CodeAnalysisRuleSet>..\Common\SogetiSpain.CodeAnalysis.ruleset</CodeAnalysisRuleSet>
-    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <DocumentationFile>bin\Debug\SogetiSpain.PracticalMvvm.Demo3.xml</DocumentationFile>
     <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>..\Common\SogetiSpain.CodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -38,8 +38,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Prism, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Core.6.2.0\lib\net45\Prism.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -73,6 +78,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ViewModels\EmployeeEditViewModel.cs" />
     <Compile Include="Views\EmployeeEditView.xaml.cs">
       <DependentUpon>EmployeeEditView.xaml</DependentUpon>
     </Compile>
