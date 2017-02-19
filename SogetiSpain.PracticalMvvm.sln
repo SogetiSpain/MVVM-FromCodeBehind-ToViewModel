@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SogetiSpain.PracticalMvvm.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SogetiSpain.PracticalMvvm.Demo1", "SogetiSpain.PracticalMvvm.Demo1\SogetiSpain.PracticalMvvm.Demo1.csproj", "{966C79E7-9BE9-45DC-9C87-33D40D0ED9C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SogetiSpain.PracticalMvvm.Demo2", "SogetiSpain.PracticalMvvm.Demo2\SogetiSpain.PracticalMvvm.Demo2.csproj", "{567306E7-0483-4C3B-BDF8-9B5EE91B887F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{966C79E7-9BE9-45DC-9C87-33D40D0ED9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{966C79E7-9BE9-45DC-9C87-33D40D0ED9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{966C79E7-9BE9-45DC-9C87-33D40D0ED9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567306E7-0483-4C3B-BDF8-9B5EE91B887F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567306E7-0483-4C3B-BDF8-9B5EE91B887F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567306E7-0483-4C3B-BDF8-9B5EE91B887F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567306E7-0483-4C3B-BDF8-9B5EE91B887F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
