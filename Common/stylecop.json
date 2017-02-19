@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "documentationRules": {
+      "companyName": "SOGETI Spain",
+      "copyrightText": "    Copyright © 2017 SOGETI Spain. All rights reserved.\n    Powered by Óscar Fernández González a.k.a. Osc@rNET.",
+      "headerDecoration": "----------------------------------------------------------------------------",
+      "variables": {
+        "licenseName": "",
+        "licenseFile": "",
+        "licenseVersion": ""
+      }
+    }
+  }
+}
