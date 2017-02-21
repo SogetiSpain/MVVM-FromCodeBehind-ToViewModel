@@ -11,4 +11,4 @@ En el presente artículo mostraré con ejemplos prácticos muy básicos cómo re
 + [WPF Data Biding] (http://bit.ly/2mbNj4O)
 + [Implementing the MVVM pattern] (http://bit.ly/1GKFKVd)
 
-[Seguir leyendo] Próximamente
+[Seguir leyendo] (http://bit.ly/2kGKsnU)
